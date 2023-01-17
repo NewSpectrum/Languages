@@ -1,0 +1,25 @@
+{
+  "name": "acodesnippets",
+  "displayName": "acode-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "snippets",
+      "aliases": ["snippets", "snippets"],
+      "extensions": ["snippets"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "snippets",
+      "scopeName": "source.snippets",
+      "path": "./syntaxes/snippets.tmLanguage.json"
+    }]
+  }
+}
